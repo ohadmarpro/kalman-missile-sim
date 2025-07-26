@@ -47,5 +47,18 @@ This figure shows:
 - 🔴 Red dots → Noisy radar measurements  
 - 🟢 Green line → Estimated path using Kalman Filter
 
+### 🎞️ Dynamic Interception Simulation
+
+This animation shows a full missile interception scenario:
+
+- A ballistic missile is launched at 45° and follows a realistic trajectory under gravity.
+- The interceptor is launched late from 200 km away with a slightly higher speed.
+- It has no prior knowledge of the missile’s path — only noisy (X, Y) measurements.
+- A 2D Kalman Filter estimates the missile’s position in real-time.
+- The interceptor adjusts its direction based on predictions until it reaches within 100 meters of the target.
+- An explosion is triggered upon interception, and the simulation stops.
+
+![Missile Interception Simulation](plots/missile_interception_success.gif)
+
 Created by Ohad Marhozi, 2025  
 Simulation of stochastic control in defense systems.
