@@ -38,5 +38,14 @@ kalman-missile-sim/
 
 ---
 
-Created by Ohad Merkozi, 2025  
+## 📷 Output Example
+
+![Missile Interception](KalmanResult.png)
+
+This figure shows:
+- 🔵 Blue line → True missile path  
+- 🔴 Red dots → Noisy radar measurements  
+- 🟢 Green line → Estimated path using Kalman Filter
+
+Created by Ohad Marhozi, 2025  
 Simulation of stochastic control in defense systems.
