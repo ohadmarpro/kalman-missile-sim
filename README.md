@@ -40,7 +40,7 @@ kalman-missile-sim/
 
 ## 📷 Output Example
 
-![Missile Interception](KalmanResult.png)
+![Missile Interception](plots/KalmanResult.png)
 
 This figure shows:
 - 🔵 Blue line → True missile path  
