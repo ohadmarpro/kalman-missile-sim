@@ -1,4 +1,4 @@
-<img width="700" height="600" alt="Figure_3 1" src="https://github.com/user-attachments/assets/d15c1d00-79e4-4825-a994-9f1d2884b544" /># 🎯 Missile Tracking and Interception using Kalman Filter
+🎯 Missile Tracking and Interception using Kalman Filter
 
 This project demonstrates the simulation of tracking a ballistic missile in 2D space using noisy sensor data and a Kalman Filter for state estimation. It shows how accurate prediction enables timely interception.
 
